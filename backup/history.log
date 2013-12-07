@@ -1,0 +1,252 @@
+   92  manage.py  runserver
+   94  python manage.py  runserver
+  114  python manage.py  syncdb
+  141  python manage.py  syncdb
+  238  python manage.py runserver
+  240  python manage.py runserver
+  244  python manage.py runserver
+  245  python manage.py synchdb
+  246  python manage.py syncdb
+  247  python manage.py runserver
+  310  python manage.py  runserver
+  311  python manage.py  inspectdb
+  312  python manage.py  inspectdb > models.py
+  315  python manage.py runserver
+  321  python manage.py migrate
+  323  python manage.py migrate
+  325  python manage.py syncdb
+  328  python manage.py syncdb
+  330  python manage.py syncdb
+  331  python manage.py sql
+  332  python manage.py sql contacts
+  334  python manage.py migrate
+  335  python manage.py help
+  336  python manage.py test
+  337  python manage.py help test
+  338  python manage.py help sql
+  340  python manage.py migrate
+  341  python manage.py syncdb
+  343  python manage.py syncdb
+  409  python manage.py syncdb
+  410  python manage.py migrate
+  411  python manage.py runserver
+  412  python manage.py syncdb
+  414* python manage.py 
+  418  python manage.py syncdb
+  419  python manage.py runserver 0.0.0.0:8000
+  421  python manage.py runserver 0.0.0.0:8000
+  422  python manage.py sql backup
+  423  python manage.py reset backup
+  424  python manage.py help reset 
+  425  python manage.py help reset
+  426  python manage.py help
+  427  python manage.py help cleanup
+  434  python manage.py syncdb
+  435  python manage.py runserver 0.0.0.0:8000
+  442  python manage.py runserver 0.0.0.0:8000
+  446  python manage.py runserver 0.0.0.0:8000
+  451  python manage.py runserver 0.0.0.0:8000
+  455  python manage.py syncdb
+  456  python manage.py sql Location
+  457  python manage.py sql backup
+  458  python manage.py runserver 0.0.0.0:8000
+  460  python manage.py syncdb
+  462  python manage.py syncdb
+  463  python manage.py sql backup
+  464  python manage.py runserver 0.0.0.0:8000
+  468  python manage.py runserver 0.0.0.0:8000
+  470  python manage.py runserver 0.0.0.0:8000
+  472  python manage.py runserver 0.0.0.0:8000
+  474  python manage.py syncdb
+  475* python manage.py 
+  476  python manage.py syncdb
+  477  python manage.py runserver 0.0.0.0:8000
+  481  python manage.py runserver 0.0.0.0:8000
+  484  python manage.py runserver 0.0.0.0:8000
+  486  python manage.py runserver 0.0.0.0:8000
+  488  python manage.py shell
+  489  python manage.py runserver 0.0.0.0:8000
+  510  python manage.py runserver 0.0.0.0:8000
+  515  python manage.py makemigrations
+  516  python manage.py makemigration
+  519  python manage.py makemigration
+  520  python manage.py validate
+  521  python manage.py syncdb
+  522  python manage.py migrate backup
+  523  python manage.py migrate backup  --no-initial-data
+  524  python manage.py migrate
+  525  python manage.py help migrate
+  526  python manage.py schemamigration  backup --initial
+  527  python manage.py migrate backup 
+  529  chmod 755 manage.py 
+  530  ./manage.py 
+  531  python manage.py migrationcheck  backup 
+  532  ./manage.py migrate backup 
+  533  ./manage.py migrate backup  --fake
+  534  python manage.py migrationcheck  backup  --auto
+  535  python manage.py schemamigration  backup --auto
+  537  python manage.py schemamigration  backup --auto
+  539  python manage.py schemamigration  backup --auto
+  540  ./manage.py migrate backup  
+  543  python manage.py schemamigration  backup --auto
+  544  ./manage.py migrate backup  
+  547  python manage.py schemamigration  backup --auto
+  549  python manage.py schemamigration  backup --auto
+  551  python manage.py schemamigration  backup --auto
+  553  python manage.py schemamigration  backup --auto
+  555  python manage.py schemamigration  backup --auto
+  560  python manage.py schemamigration  backup --auto
+  562  python manage.py schemamigration  backup --auto
+  564  python manage.py schemamigration  backup --auto
+  565  ./manage.py migrate backup  
+  572  python manage.py schemamigration  backup --auto
+  573  ./manage.py migrate backup  
+  576  python manage.py schemamigration  backup --auto
+  577  ./manage.py migrate backup  
+  578  python manage.py schemamigration  backup --auto
+  579* python manage.py schemamigration  backup --in
+  580  ./manage.py migrate backup  
+  581  ./manage.py syncdb
+  582  ./manage.py migrate backup  
+  585  python manage.py schemamigration  backup --auto
+  586  ./manage.py migrate backup  
+  596  python manage.py schemamigration  backup --auto
+  597  ./manage.py migrate backup  
+  601  python manage.py schemamigration  backup --auto
+  602  ./manage.py migrate backup  
+  609  python manage.py schemamigration  backup --auto
+  610  ./manage.py migrate backup  
+  611  ./manage.py syncdb
+  612* ./manage.py migrate backup  --fake
+  614  python manage.py schemamigration  backup --auto
+  615  ./manage.py migrate backup  
+  616  ./manage.py syncdb
+  617  ./manage.py migrate backup  
+  618  python manage.py schemamigration  backup --initial
+  619  ./manage.py migrate backup  
+  621  ./manage.py syncdb
+  622  python manage.py schemamigration  backup --initial
+  623  ./manage.py migrate backup  
+  626  python manage.py schemamigration  backup --initial
+  627  python manage.py schemamigration  backup --auto
+  628  ./manage.py migrate backup  --fake
+  629  ./manage.py migrate backup 
+  630  python manage.py schemamigration  backup --auto
+  631  ./manage.py migrate backup 
+  632  python manage.py schemamigration  backup --initial
+  633  ./manage.py migrate backup 
+  634* ./manage.py migrate backup --fake=
+  635  ./manage.py migrate backup
+  636  python manage.py schemamigration  backup --auto
+  638  python manage.py schemamigration  backup --auto
+  639  ./manage.py migrate backup
+  642  python manage.py schemamigration  backup --auto
+  643  ./manage.py migrate backup
+  644  python manage.py schemamigration  backup --initial
+  646  python manage.py schemamigration  backup --auto
+  647  ./manage.py migrate backup
+  648  python manage.py syncdb
+  649  python manage.py sql backup
+  651  python manage.py schemamigration  backup --auto
+  652  ./manage.py migrate backup
+  663  python manage.py schemamigration  backup --auto
+  665  python manage.py schemamigration  backup --auto
+  666  ./manage.py migrate backup
+  667  python manage.py schemamigration  backup --auto
+  669  python manage.py schemamigration  backup --auto
+  670  ./manage.py migrate backup
+  678  python manage.py schemamigration  backup --auto
+  679  ./manage.py migrate backup
+  682  python manage.py schemamigration  backup --auto
+  683  ./manage.py migrate backup
+  685  ./manage.py syncdb
+  687  ./manage.py syncdb
+  688  python manage.py schemamigration  backup --auto
+  689  ./manage.py migrate backup
+  693  python manage.py schemamigration  backup --auto
+  694  ./manage.py migrate backup
+  696  ./manage.py
+  697  ./manage.py help dumpdata
+  698  ./manage.py dumpdata backup
+  699  ./manage.py help dumpdata 
+  700  ./manage.py help dumpdata  > backup.datadump
+  702  ./manage.py dumpdata backup > backup.datadump 
+  704  ./manage.py help 
+  705  ./manage.py help loaddata
+  713  history | grep manage.py 
+  714  history | grep manage.py  > backup/history.log
+   54  pip search mysql
+   55  pip search pymysql
+   57  pip search pymysql
+   95  mysql -u root  
+   96  sudo apt-get install mysql-client
+   97  mysql -u root  
+   98  sudo apt-get install mysql-server
+   99  mysql -u root  
+  105  mysqladmin 
+  106  mysqladmin  --help
+  107  mysqladmin  password grep
+  108  sudo mysqladmin  password grep
+  109  mysql -u root  
+  110  mysql -u root  -pgrep
+  111  sudo apt-get install python-mysqldb
+  118  pip search mysql2
+  119  pip search mysql
+  136  sudo apt-get install libmysqlclient-dev
+  148  pip search mysql
+  175  sudo apt-cache search mysql | grep -i mysql
+  176  sudo apt-cache search mysql | grep -i python
+  177  sudo apt-cache search mysql | grep -i python | grep dev
+  178  sudo apt-cache search mysql | grep -i python 
+  180  sudo apt-cache search mysql | grep -i python 
+  249  mysql -u root -pgrep
+  253  mysql -h file1 -u dbadmin -pgrep navassets;
+  326  mysql -u root -pgrep
+  329  mysql -u root -pgrep
+  339  mysql -u dbadmin  -pgrep
+  413  mysql -u root -pgrep
+  461  mysql -u root -pgrep
+  490  mysqldump -u root -pgrep   dj_backup
+  491  mysqldump -u root -pgrep     --add-drop-table dj_backup 
+  492  mysqldump -u root -pgrep     --add-drop-table dj_backup  > dj_backup.sqk
+  493  mysqldump -u root -pgrep     --add-drop-table dj_backup  > dj_backup.sql
+  541  mysql -u root -pgrep dj_backup;
+  545  mysql -u root -pgrep dj_backup -e "explain backup_frequency;"
+  566  mysql -u root -pgrep dj_backup -e "explain backup_frequency;"
+  567  mysql -u root -pgrep dj_backup -e "explain backup_client;"
+  574  mysql -u root -pgrep dj_backup -e "explain backup_client;"
+  583  mysql -u root -pgrep dj_backup -e "explain backup_client;"
+  587  mysql -u root -pgrep dj_backup -e "explain backup_client;"
+  590  sudo vim /etc/mysql/my.cnf 
+  591  sudo service mysqld reload
+  592  sudo service mysql reload
+  593  sudo service mysql restart
+  594  mysql -u root -pgrep dj_backup -e "explain backup_client;"
+  598  mysql -u root -pgrep dj_backup -e "explain backup_client;"
+  599  mysql -u root -pgrep dj_backup -e "explain backup_client; select * from backup_client"
+  603  mysql -u root -pgrep dj_backup -e "explain backup_client; select * from backup_client"
+  604  mysql -u root -pgrep dj_backup -e "explain backup_client; select * from backup_pathname"
+  605  mysql -u root -pgrep dj_backup -e "select * from backup_pathname"
+  606  mysql -u root -pgrep dj_backup -e "explain backup_pathname"
+  607  mysql -u root -pgrep dj_backup -e "explain backup_fileset"
+  613  mysql -u root -pgrep dj_backup -e "drop table  backup_fileset"
+  620  mysql -u root -pgrep dj_backup -e "drop table  backup_fileset"
+  624  mysql -u dbadmin -pgrep dj_backup;
+  625  mysql -u root -pgrep dj_backup -e "explain  backup_fileset"
+  640  mysql -u root -pgrep dj_backup -e "explain  backup_fileset"
+  650  mysql -u root -pgrep dj_backup;
+  653  mysql -u root -pgrep dj_backup -e "explain  backup_fileset"
+  654  mysql -u root -pgrep dj_backup -e "explain  backup_pathname"
+  655  mysql -u root -pgrep dj_backup -e "select * from  backup_pathname"
+  656  mysql -u root -pgrep dj_backup -e "select * from  backup_fileset"
+  657  mysql -u root -pgrep dj_backup -e "delete  backup_fileset"
+  658  mysql -u root -pgrep dj_backup -e "delete  from backup_fileset"
+  659  mysql -u root -pgrep dj_backup -e "delete  from backup_pathname"
+  660  mysql -u root -pgrep dj_backup -e "select * from  backup_fileset"
+  661  mysql -u root -pgrep dj_backup -e "select * from  backup_pathname"
+  680  mysql -u root -pgrep dj_backup -e "explain backup_client"
+  690  mysql -u root -pgrep dj_backup -e "explain backup_client"
+  691  mysql -u root -pgrep dj_backup 
+  706  history | grep mysqldump
+  707  mysqldump -u root -pgrep     --add-drop-table dj_backup  > dj_backup.sql
+  715  history | grep  mysql  >> backup/history.log
